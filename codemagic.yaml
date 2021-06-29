@@ -1,8 +1,0 @@
-workflows:
-    scripts:
-      - echo 'previous step'
-      - name: Integration tests
-        script: |
-          mkdir -p test-results
-          flutter -d emulator-5554 test --machine > test-results/flutter.json integration_test # for iOS use: -d iPhone      
-        test_report: test-results/flutter.json
