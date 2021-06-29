@@ -1,6 +1,4 @@
 workflows:
-  hello-world:
-    name: Hello world worklfow
     scripts:
       - echo 'previous step'
       - name: Integration tests
